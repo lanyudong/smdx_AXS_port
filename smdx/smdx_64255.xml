@@ -1,0 +1,68 @@
+<sunSpecModels v="1">
+  <!-- 1: Outback Power: OPTICS packet statistics -->
+  <model id="64255" len="56" name="PROXY: OutBack OPTICS">
+    <block len="56" type="fixed">
+      <point id="OP_stats_Bt_min" offset="0" type="int16"/> 
+      <point id="OP_stats_Bt_max" offset="1" type="int16"/>                 
+      <point id="OP_stats_Bt_ave" offset="2" type="int16"/>                 
+      <point id="OP_stats_Bt_attempts" offset="3" type="int16"/>            
+      <point id="OP_stats_Bt_errors" offset="4" type="int16"/>              
+      <point id="OP_stats_Bt_timeouts" offset="5" type="int16"/>             
+      <point id="OP_stats_Bt_packet_timeout" offset="6" type="int16"/>      
+      <point id="OP_stats_Mp_min" offset="7" type="int16"/>                 
+      <point id="OP_stats_Mp_max" offset="8" type="int16"/>                 
+      <point id="OP_stats_Mp_ave" offset="9" type="int16"/>                 
+      <point id="OP_stats_Mp_attempts" offset="10" type="int16"/>            
+      <point id="OP_stats_Mp_errors" offset="11" type="int16"/>              
+      <point id="OP_stats_Mp_timeouts" offset="12" type="int16"/>           
+      <point id="OP_stats_Mp_packet_timeout" offset="13" type="int16"/>      
+      <point id="OP_stats_Cu_min" offset="14" type="int16"/>                 
+      <point id="OP_stats_Cu_max" offset="15"type="int16"/>                   
+      <point id="OP_stats_Cu_ave" offset="16" type="int16"/>                 
+      <point id="OP_stats_Cu_attempts" offset="17" type="int16"/>            
+      <point id="OP_stats_Cu_errors" offset="18" type="int16"/>              
+      <point id="OP_stats_Cu_timeouts" offset="19" type="int16"/>            
+      <point id="OP_stats_Cu_packet_timeout" offset="20" type="int16"/>      
+      <point id="OP_stats_Su_min" offset="21" type="int16"/>                 
+      <point id="OP_stats_Su_max" offset="22" type="int16"/>                 
+      <point id="OP_stats_Su_ave" offset="23" type="int16"/>                 
+      <point id="OP_stats_Su_attempts" offset="24" type="int16"/>            
+      <point id="OP_stats_Su_errors" offset="25" type="int16"/>              
+      <point id="OP_stats_Su_timeouts" offset="26"type="int16"/>            
+      <point id="OP_stats_Su_packet_timeout" offset="27" type="int16"/>      
+      <point id="OP_stats_Pg_min" offset="28" type="int16"/>                
+      <point id="OP_stats_Pg_max" offset="29" type="int16"/>                 
+      <point id="OP_stats_Pg_ave" offset="30" type="int16"/>                 
+      <point id="OP_stats_Pg_attempts" offset="31" type="int16"/>              
+      <point id="OP_stats_Pg_errors" offset="32" type="int16"/>              
+      <point id="OP_stats_Pg_timeouts" offset="33" type="int16"/>            
+      <point id="OP_stats_Pg_packet_timeout" offset="34" type="int16"/>      
+      <point id="OP_stats_Mb_min" offset="35" type="int16"/>                 
+      <point id="OP_stats_Mb_max" offset="36" type="int16"/>                 
+      <point id="OP_stats_Mb_ave" offset="37" type="int16"/>                 
+      <point id="OP_stats_Mb_attempts" offset="38" type="int16"/>            
+      <point id="OP_stats_Mb_errors" offset="39" type="int16"/>              
+      <point id="OP_stats_Mb_timeouts" offset="40" type="int16"/>            
+      <point id="OP_stats_Mb_packet_timeout" offset="41" type="int16"/>      
+      <point id="OP_stats_Fu_min" offset="42" type="int16"/>                 
+      <point id="OP_stats_Fu_max" offset="43" type="int16"/>                 
+      <point id="OP_stats_Fu_ave" offset="44" type="int16"/>                 
+      <point id="OP_stats_Fu_attempts" offset="45" type="int16"/>            
+      <point id="OP_stats_Fu_errors" offset="46" type="int16"/>              
+      <point id="OP_stats_Fu_timeouts" offset="47" type="int16"/>            
+      <point id="OP_stats_Fu_packet_timeout" offset="48" type="int16"/>      
+      <point id="OP_stats_Ev_min" offset="49" type="int16"/>                 
+      <point id="OP_stats_Ev_max" offset="50" type="int16"/>                 
+      <point id="OP_stats_Ev_ave" offset="51" type="int16"/>                 
+      <point id="OP_stats_Ev_attempts" offset="52" type="int16"/>            
+      <point id="OP_stats_Ev_errors" offset="53" type="int16"/>              
+      <point id="OP_stats_Ev_timeouts"  offset="54" type="int16"/>          
+      <point id="OP_stats_Ev_packet_timeout" offset="55" type="int16"/>      
+    </block>
+  </model>
+  <strings id="64255" locale="en">
+    <model>
+      <label>OPTICS packet statistics</label>
+    </model>
+  </strings>
+</sunSpecModels>
